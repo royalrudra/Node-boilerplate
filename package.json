@@ -1,5 +1,5 @@
 {
-  "name": "Node Boilerplate",
+  "name": "NodeBoilerplate",
   "version": "1.0.0",
   "main": "index.js",
   "repository": "",
@@ -21,6 +21,7 @@
     "helmet": "^3.6.0",
     "http-status": "^1.0.1",
     "joi": "^10.5.0",
+    "jsdoc": "^3.5.5",
     "jsonwebtoken": "^7.4.1",
     "mongoose": "^4.9.9",
     "mongoose-unique-validator": "^1.0.5",
