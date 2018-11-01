@@ -1,3 +1,10 @@
+/**
+ * @module
+ * test
+ * 
+ */
+
+
 import User from "./user.model";
 
 
@@ -8,4 +15,10 @@ export async function singUp(req,res) {
         }catch(e){
             return res.status(500).json(e);
         }
+}
+
+export function login(req,res,next){
+    res.status(200).json(req.user);
+
+    return next();
 }

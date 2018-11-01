@@ -1,3 +1,11 @@
+/**
+ * @module
+ * Home page
+ * @description
+ * this sfadlkfjalksdj
+ */
+
+
 import express from 'express';
 import constants from './config/constants.js';
 import "./config/database";
